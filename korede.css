@@ -1,0 +1,443 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+   background-color:#282c33;
+   overflow-x: none;
+  
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.ako{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.ako-1{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.ako-3{
+    display: flex;
+    gap: 20px;
+    z-index: 1000px;
+
+    
+}
+.ako-2{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+   
+    
+}
+.ako-4 a{
+    color: gray;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    
+}
+span{
+    color: green;
+}
+.ako-4 a:hover{
+    color: white;
+}
+#home{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+}
+.ever{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.home{
+    width: 100%;
+  
+}
+
+.home-1{
+    color: green;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.hmm{
+    margin-top: 15px;
+    width: 500px;
+}
+.home-2{
+    
+
+    color: white;
+    font-size: 60px;
+    font-family: 'poppins';
+    font-weight: 900;
+    
+
+}
+.home-3{
+    -webkit-text-stroke: 2px green;
+    font-size: 50px;
+}
+.about{
+    width: 700px;
+    background-color: black;
+    padding: 20px;
+}
+.aboutme{
+    color: #7000FF;
+}
+.abt{
+    color: white;
+}
+.pro{
+    color: green;
+    margin-left: 50px;
+    font-size: 18px;
+}
+.abtt{
+    color: white;
+    font-size: 17px;
+}
+#aboutt{
+    width: 100%;
+    height: 100%;
+   
+}
+.aboutt,.aboutt-02{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    
+}
+
+.about-3{
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.oya{
+    color: green;
+}
+.about-2{
+    width: 180px;
+    height: 3.8px;
+    background-color: green;
+}
+.oya{
+    font-size: 30px;
+}
+.about-1{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.self{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.self-1{
+    width: 70%;
+    color: rgb(171 178 191);
+    font-size: 1.125rem;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+.develop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.develop-1{
+    width: 70%;
+    color: rgb(171 178 191);
+    font-size: 1.125rem;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+#skills{
+    width: 100%;
+    height: 100%;
+    margin-top: 500px;
+    
+}
+.skills{
+    width: 100%;
+    display: flex;
+   
+   justify-content: space-around;
+  
+}
+.skills-2,.skills-7,.skills-8,.skills-9{
+    color: white;
+}
+.skills-4{
+    border-bottom: 3px solid green;
+    width: 190px;
+    font-weight: 600;
+}
+.skills-3{
+    border: 3px solid green;
+    width: 200px;
+}
+.skills-6{
+    padding-right: 200px;
+}
+.skills-5,.skills-4{
+    font-size: 20px;
+    padding: 10px 0;
+    padding-left: 10px;
+    
+}
+.skills-5{
+    color: grey;
+}
+.skills-8{
+    position: relative;
+    left: 230px;
+    bottom: 250px;
+}
+.skills-7{
+    position: relative;
+    top: 40px;
+}
+.skills-9{
+    position: relative;
+    left: 230px;
+    bottom: 230px;
+}
+.aboutt-02{
+    margin-top: 50px;
+}
+#works{
+    width: 100%;
+    height: 100%;
+   
+  
+}
+.work-2{
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    justify-content:center;
+    margin-top: 60px;
+}
+.work-3 img{
+    width: 500px;
+    height: 300px;
+}
+.work-5{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.work-6{
+    font-size: 21px;
+    font-weight: 500;
+    color: grey;
+    margin-top: 40px;
+    width: 400px;
+}
+.work-7{
+    margin-top: 40px;
+}
+.work-7 a{
+    color: white;
+    font-size: 21px;
+}
+.work-7 a:hover{
+    color: blue;
+}
+#contact{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contact-1{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-2{
+    color: grey;
+    font-size: 19px;
+    width: 450px;
+    font-weight: 300;
+}
+.contact-3{
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+}
+.emma{
+    color: grey;
+    font-size: 20px;
+}
+.form-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.form-2{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.form-3 input[type='text']{
+    width: 480px ;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px 0;
+    padding-left: 10px;
+    color: white;
+}
+.form-3 input[type='email']{
+    width: 500px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px 0;
+    padding-left: 10px;
+    color: white;
+}
+.title-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.title input[type='text']{
+    width: 1053px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px 0;
+    padding-left: 10px;
+    color: white;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.box-1 input[type='text']{
+    width: 1053px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px 0;
+    padding-left: 10px;
+    padding-bottom: 230px;
+    color: white;
+}
+.done{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px
+}
+.done-1{
+    width: 70%;
+}
+.done-2 input[type='submit']{
+    border: 1px solid green;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    padding: 13px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.done-2 input[type='submit']:hover{
+    background-color: green;
+}
+.ise-1{
+    margin-top: 400px
+}
+::placeholder{
+    color: grey;
+}
+.foot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.foot-1{
+    width: 70%;
+    background-color: green;
+    height: 2.1px;
+}
+.foot-3{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foot-4{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-5{
+    color: white;
+    font-size: 20px;
+}
+.foot-6{
+    display: flex;
+    gap: 20px;
+}
+.foot-7 i{
+    color: white;
+    font-size: 25px;
+}
+.foot-7 i:hover{
+    transition: all 1.5s;
+    color: blue;
+}
+.copyright{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+.copyright-1{
+    text-align: center;
+    font-size: 17px;
+    color: gray;
+}

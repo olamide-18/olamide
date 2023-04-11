@@ -1,0 +1,24 @@
+.nicee{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.news{
+    display: flex;
+   justify-content: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+.enter{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.rotate{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+    
+}

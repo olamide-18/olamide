@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.all-2,.all-3{
+    display: block;
+    gap: 20px;
+    border-right: 2px solid green;
+  
+}
+.all-1{
+    border: 2px solid green;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}

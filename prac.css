@@ -1,0 +1,54 @@
+.arrow-1{
+    width: 200px;
+    height: 2px;
+    background-color: green;
+  
+}
+.arrow{
+    display: flex;
+    align-items: center;
+}
+.arrow-2{
+    font-size: 30px;
+    color: green;
+}
+
+img{
+    width: 100px;
+}
+.pic img{
+    position: absolute;
+}
+.pic img:nth-child(1){
+    top: 200px;
+}
+
+.pic img:nth-child(2){
+    left: 200px;
+}
+
+.pic img:nth-child(3){
+    top: 400px;
+    left: 200px;
+}
+
+.pic img:nth-child(4){
+    top: 200px;
+    left: 400px;
+    
+}
+a{
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.icons-1 i{
+    font-size: 50px;
+    color: red;
+}.icons-1 i:hover{
+    color: blue;
+    transition: all 2s;
+}
+
